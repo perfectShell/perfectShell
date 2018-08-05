@@ -1,0 +1,25 @@
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="container {{ with .Site.Params.sidebarSticky -}}sidebar-sticky{{- end }}">
+    <div class="sidebar-about">
+      <span class="site__title">
+        Ever wanted to have a bit more cybernetic in your skeleton?
+      </span>
+      {{ with .Site.Params.authorimage }}
+      {{ $strippedSlash := ($.Site.Params.authorimage | replaceRE "^(/)+(.*)" "$2") }}
+      {{ $authorImage := (printf "%s%s" $.Site.BaseURL $strippedSlash) }}
+      <div class="author-image">
+        <img src="{{$authorImage}}" alt="Author Image" class="img--circle img--headshot element--center"> 
+      </div>
+      {{ end }}
+      <p class="site__description">
+        {{ with .Site.Params.description }} {{.}} {{ else }} Your site's description {{end}}
+      </p>
+    </div>
+    {{ partial "sidebar/menu.html" . }}
+    <br><span>MEGA-Downloads:</span><br>
+    <span><a href="https://mega.nz/#!u6BgTaaT!IU3QKG8h6MY8BdyJBBONsTarhkrB3ma0hLsAWdq2MOU">Stable - Version 0.1.0</a></span>
+  </div>
+  <div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Perfect Shell"
+description = "Perfect Shell is a Twine2 game centered on robotics and cyberpunk.. with that little bit extra"
+paginate = 5
+
+theme = [
+  "fractal-forest",
+  "after-dark"
+]
+
+enableRobotsTXT = true # Suggested, enable robots.txt file
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+# footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
+
+[params]
+
+  authorimage = "/img/cybernetic-skeleton.png"
+  hide_author = true # Optional, set true to hide author name on posts
+  show_menu = true # Optional, set true to enable section menu
+  powered_by =false # Optional, set false to disable credits
+  images = [
+    "https://source.unsplash.com/collection/983219/2000x1322"
+  ] # Suggested, controls default Open Graph images
+  sidebarSticky = true
+  description = "Perfect Shell is a Twine2 game centered on robotics and cyberpunk.. with that little bit extra"
+
+[params.hackcss]
+  disabled = false # Optional, set true to disable hackcss
+  mode = "hack" # Optional, choose from standard or hack display modes
+  palette = "dark-grey" # Optional, choose from dark, dark-grey and solarized-dark
+
+[params.modules.fractal_forest]
+  enabled = true # Optional, set false to disable module
+  decoders = ["bpgdec8a"] # Optional, 8-bit javascript decoder with animation
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "post"
+    url = "/"
+[[menu.main]]
+    name = "Play Online"
+    weight = 5
+    identifier = "play"
+    url = "/play/Perfect_Shell.html"
+
+
+[[menu.sidebar]]
+   name = "What is this?"
+   weight = 1
+   identifier = "about"
+   url = "/faq"
