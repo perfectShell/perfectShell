@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Perfect Shell</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on Perfect Shell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Aug 2018 16:56:04 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workshop-Edition</title>
+      <link>http://example.org/post/post01/</link>
+      <pubDate>Sun, 05 Aug 2018 16:56:04 +0200</pubDate>
+      
+      <guid>http://example.org/post/post01/</guid>
+      <description>&lt;p&gt;For now the version you are seeing is just a demo, titled &amp;ldquo;Workshop Version&amp;rdquo;. For all intents and purposes, this is designed to give you an introduction into the main-aspect of this game, designing your own robotic cybertech-body.&lt;/p&gt;
+
+&lt;p&gt;This game will be heavily story-centered, &amp;ldquo;coming soon&amp;rdquo;&amp;trade;. For more info take a look at &lt;a href=&#34;http://example.org/faq&#34;&gt;Where am I?&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Yes, the art is still wonky, tits look like shit and I&amp;rsquo;m pretty sure the equipment system is containig one or five bugs.
+But hey, it&amp;rsquo;s something and I&amp;rsquo;m planning on getting to work on those things asap, especially art-improvements!
+Take a look at the &lt;a href=&#34;http://example.org/roadmap&#34;&gt;Roadmap&lt;/a&gt;.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hello world.</title>
+      <link>http://example.org/post/post0/</link>
+      <pubDate>Sun, 29 Jul 2018 23:05:17 +0200</pubDate>
+      
+      <guid>http://example.org/post/post0/</guid>
+      <description>i am alive.</description>
+    </item>
+    
+  </channel>
+</rss>

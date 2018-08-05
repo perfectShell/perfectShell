@@ -1,0 +1,98 @@
+a {
+	border-bottom: none;
+	border-radius: 1px;
+	transition-duration: 0.3s;
+	transition-property: color, background-color;
+	padding: 1px;
+	margin: -1px;
+}
+
+a[itemprop="url"], [itemprop="name"] a, summary {
+	margin: inherit;
+	margin-left: inherit;
+	padding: 5px 5px;
+}
+
+a:hover {
+	color: #fff!important;
+}
+
+h2 {
+	color: #ff2e88;
+}
+
+
+.hack,.hack em,.hack strong {
+	font-family: Helvetica Neue,Helvetica,Arial,Geneva,sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.8rem;
+}
+.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6,.hack blockquote {
+	font-family: klinic,Consolas,Andale Mono,Rockwell,Courier,sans-serif;
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+.hack blockquote {
+	font-size: 1.15rem;
+}
+
+/*.main {
+	float: right;
+	max-width: 75%;
+	padding-right: 10%;
+}*/
+
+@media (max-width: 1280px) {
+	.sidebar {
+		display:none !important;
+	}
+	.main {
+		padding: 20px 10px;
+		max-width: 50rem;
+		float: none;
+	}
+}
+
+.sidebar {
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	text-align: left;
+	top: 0;
+	width: 18rem;
+}
+.sidebar {
+	/*background-color: #300030;*/
+	background-color: #222;
+	color: #fff;
+	color: hsla(0,0%,100%,.5);
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+.hack header p.muted {
+	margin-bottom: 0;
+	margin-top: -30px;
+	font-size: initial;
+}
+
+/*.hack ul > li::after {
+	content: none;
+}
+
+.hack li {
+	padding-left: 0px;
+}*/
+
+.author-image > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.sidebar-about > .site__description {
+	margin-top: 10px;
+}
