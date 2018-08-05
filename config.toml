@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://perfectshell.netlify.com/"
 languageCode = "en-us"
 title = "Perfect Shell"
 description = "Perfect Shell is a Twine2 game centered on robotics and cyberpunk.. with that little bit extra"
