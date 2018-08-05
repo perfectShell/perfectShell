@@ -10,4 +10,4 @@ The reason being if I do small consecutive updates in short order, like 5 small 
 + STABLE on Mega.nz:
 	+ [Stable - Version 0.1.0](https://mega.nz/#!u6BgTaaT!IU3QKG8h6MY8BdyJBBONsTarhkrB3ma0hLsAWdq2MOU)
 
-LATEST on Git: [Here](https://github.com/perfectShell/perfectShell/static/play)
+LATEST on Git: [Here](https://github.com/perfectShell/perfectShell/tree/master/static/play)
